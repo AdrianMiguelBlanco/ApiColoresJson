@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteColoresJson", "ClienteColoresJson\ClienteColoresJson.csproj", "{7DC5C02A-6BC9-47C4-89F3-710865F919FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC5C02A-6BC9-47C4-89F3-710865F919FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC5C02A-6BC9-47C4-89F3-710865F919FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC5C02A-6BC9-47C4-89F3-710865F919FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC5C02A-6BC9-47C4-89F3-710865F919FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2F2F9B5-3979-4112-B746-C6E0B3F1F012}
+	EndGlobalSection
+EndGlobal

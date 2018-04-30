@@ -1,0 +1,32 @@
+﻿@model List<ClienteColoresJson.Models.Color>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Hexadecimal</th>
+            <th>Muestra</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.IdColor</td>
+            <td>@item.Nombre</td>
+            <td>@item.Hex</td>
+            <td style="background-color:@item.Hex"></td>
+            <td>@Html.ActionLink("Editar", "Edit", "Colores", new { idcolor = item.IdColor }, null)</td>
+            <td>@Html.ActionLink("Eliminar", "Delete", "Colores", new { idcolor = item.IdColor }, null)</td>
+        </tr>
+        }
+    </tbody>
+</table>
+<hr />
+@Html.ActionLink("Crear Color","Create","Colores")
+
