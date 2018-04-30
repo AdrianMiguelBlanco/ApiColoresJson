@@ -1,0 +1,44 @@
+{
+  "colores": [
+    {
+      "idcolor": 1,
+      "nombre": "rojo",
+      "hexadecimal": "#f00"
+    },
+    {
+      "idcolor": 2,
+      "nombre": "verde",
+      "hexadecimal": "#0f0"
+    },
+    {
+      "idcolor": 3,
+      "nombre": "azul",
+      "hexadecimal": "#00f"
+    },
+    {
+      "idcolor": 4,
+      "nombre": "cyan",
+      "hexadecimal": "#0ff"
+    },
+    {
+      "idcolor": 5,
+      "nombre": "magenta",
+      "hexadecimal": "#f0f"
+    },
+    {
+      "idcolor": 6,
+      "nombre": "amarillo",
+      "hexadecimal": "#ff0"
+    },
+    {
+      "idcolor": 7,
+      "nombre": "negro",
+      "hexadecimal": "#000"
+    },
+    {
+      "idcolor": 8,
+      "nombre": "Violet",
+      "hexadecimal": "#8a2be2"
+    }
+  ]
+}
